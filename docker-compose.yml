@@ -1,0 +1,7 @@
+version: '2'
+services:
+ sniper:
+   image: sniper:v002
+   volumes:
+     - ./loot:/usr/share/sniper/loot
+
